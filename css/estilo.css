@@ -1,0 +1,175 @@
+
+
+body {
+    background-color: black;
+}
+
+#patrocinio{
+    color: rgb(80, 82, 99);
+    font: 200;
+    position: absolute;
+    left: 700px;
+    top: 100px;
+    font-family: arial;
+}
+  
+#logoum{
+    margin: 70px;
+    width: 200px;
+    padding: 0;
+    position: absolute;
+    height: 200px;
+    top: 90px;
+    left: 400px;
+    background-repeat: no-repeat;
+    background: transparent url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc1rfrm_ZmRHE06qNxC-uMmJaBLvYvzv1xGzkkuFVwUqVp0EnTICPyZZopxGh3lq-Qris&usqp=CAU')     
+}
+
+#logodois{
+    margin: 20px;
+    width: 200px;
+    padding: 0;
+    position: absolute;
+    height: 190px;
+    top: 120px;
+    left: 700px;
+    background-repeat: no-repeat;
+    background: transparent url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCghn9QkRx_CxTvLRStYqEz_JkLTuIqAkpng&usqp=CAU')     
+}
+
+#logotres{
+    margin: 70px;
+    width: 200px;
+    padding: 0;
+    position: absolute;
+    height: 200px;
+    top: 70px;
+    left: 900px;
+    background-repeat: no-repeat;
+    background: transparent url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0llXEUok71pPdCELvtNVnumMTOOBlbQmw3xdmniozKqrVxpmLqnBLLzz1nwX0Uu6rueQ&usqp=CAU')     
+}
+
+
+#font{
+    color: rgb(120, 100, 228);
+    font-family: arial;
+    position: absolute;
+    height: 190px;
+    top: 400px;
+    left: 250px;
+}
+
+#fontdois{
+    color: white;
+    font-family: arial;
+    position: absolute;
+    width: 200px;
+    top: 450px;
+    left: 250px;
+}
+
+#paragrafodois{
+        color: rgb(165, 164, 164);
+        font-family: arial;
+        position: absolute;
+        width: 200px;
+        top: 560px;
+        left: 250px;
+}
+
+#icone-um i {
+    font-size: 30px;
+    color: rgb(82, 36, 189);
+}
+
+#icone-um {
+    color: white;
+    font-family: arial;
+    position: absolute;
+    width: 400px;
+    top: 420px;
+    left: 1000px;
+    font: 500;
+}
+
+#paragrafo-um{
+    color: rgb(165, 164, 164);
+    font-family: arial;
+    position:absolute;
+    width: 300px;
+    top: 80px;
+    left: 5px;
+}
+
+#icone-dois i {
+    font-size: 30px;
+    color: red;
+    box-shadow: 0px 0px 23px orangered;
+}
+
+#icone-dois {
+    color: white;
+    font-family: arial;
+    position: absolute;
+    width: 400px;
+    top: 420px;
+    left: 1350px;
+    font: 500;
+}
+
+#paragrafo-dois{
+    color: rgb(165, 164, 164);
+    font-family: arial;
+    position:absolute;
+    width: 300px;
+    top: 80px;
+    left: 5px;
+}
+
+#icone-tres i {
+    font-size: 30px;
+    color: greenyellow;
+}
+
+#icone-tres{
+    color: white;
+    font-family: arial;
+    position: absolute;
+    width: 400px;
+    top: 600px;
+    left: 1005px;
+    font: 500;
+}
+
+#paragrafo-tres{
+    color: rgb(165, 164, 164);
+    font-family: arial;
+    position:absolute;
+    width: 300px;
+    top: 80px;
+    left: 5px;
+}
+
+#icone-quatro i {
+    font-size: 30px;
+    color: orange;
+}
+
+#icone-quatro{
+    color: white;
+    font-family: arial;
+    position: absolute;
+    width: 400px;
+    top: 595px;
+    left: 1355px;
+    font: 500;
+}
+
+#paragrafo-quatro{
+    color: rgb(165, 164, 164);
+    font-family: arial;
+    position:absolute;
+    width: 300px;
+    top: 80px;
+    left: 5px;
+}
