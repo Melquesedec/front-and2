@@ -2,6 +2,123 @@
 
 body {
     background-color: black;
+    width: 1850px;
+    height: 2800px;
+}
+
+#icone-central {
+        margin: 70px;
+        width: 1000px;
+        padding: 0;
+        position: absolute;
+        height: 670px;
+        top: 150px;
+        left: 700px;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background: transparent url('https://images.unsplash.com/photo-1553481187-be93c21490a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtZXxlbnwwfHwwfHw%3D&w=1000&q=80');
+        
+}
+
+#centrodois{
+    color: white;
+    font-family: arial;
+    position: absolute;
+    width: 300px;
+    top: 300px;
+    left: 250px;
+    font-size: 25px;
+
+}
+
+#primeiroparagrafo{
+    color: rgb(165, 164, 164);
+    font-family: arial;
+    position: absolute;
+    width: 400px;
+    top: 150px;
+    left: 2px;
+    font-size: 20px;
+
+}
+
+#cor {
+        background-color: blueviolet;
+        position: absolute;
+        display: inline-block;
+        padding: 10px 10px;
+        color: white;
+        font-weight: 800;
+        font-size: 15px;
+        margin: 5px;
+        border-radius: 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        overflow: hidden;
+        transition: 0.5s;
+        margin-top: 40px;
+        letter-spacing: 4px;
+        box-shadow: 0 0 5px blueviolet,
+                    0 0 25px blueviolet;
+    width: 200px;
+    top: 230px;
+    left: -5px;
+}
+
+.cabecalho {
+    font-size: 1.8rem;
+}
+
+.cabecalho ul {
+    height: 40px;
+    background-color: black;
+    opacity: 0.6;
+    padding: 25px 50px;
+    border-radius: 50px;
+}
+
+.cabecalho a, label {
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 900; 
+    /* font-weight: bold; */
+    transition: 0.7s all;
+}
+
+.cabecalho a:hover {
+    transition: 0.7s all;
+    color: white;
+    box-shadow: 0px 5px 0px rgb(74, 8, 228);    
+    margin: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+    padding: 10px 10px;
+}
+
+.menu{
+    float: right;
+    width: 1000px;
+    height: 2000px;
+}
+
+.menu li {
+    list-style: none;
+    list-style-type: none;
+    padding: 13px;
+    margin-top: -8px;
+    display: inline-block;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    transition: 0.7s all;
 }
 
 #patrocinio{
@@ -9,7 +126,7 @@ body {
     font: 200;
     position: absolute;
     left: 700px;
-    top: 100px;
+    top: 1000px;
     font-family: arial;
 }
   
@@ -19,7 +136,7 @@ body {
     padding: 0;
     position: absolute;
     height: 200px;
-    top: 90px;
+    top: 990px;
     left: 400px;
     background-repeat: no-repeat;
     background: transparent url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc1rfrm_ZmRHE06qNxC-uMmJaBLvYvzv1xGzkkuFVwUqVp0EnTICPyZZopxGh3lq-Qris&usqp=CAU')     
@@ -31,7 +148,7 @@ body {
     padding: 0;
     position: absolute;
     height: 190px;
-    top: 120px;
+    top: 1020px;
     left: 700px;
     background-repeat: no-repeat;
     background: transparent url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCghn9QkRx_CxTvLRStYqEz_JkLTuIqAkpng&usqp=CAU')     
@@ -43,7 +160,7 @@ body {
     padding: 0;
     position: absolute;
     height: 200px;
-    top: 70px;
+    top: 970px;
     left: 900px;
     background-repeat: no-repeat;
     background: transparent url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0llXEUok71pPdCELvtNVnumMTOOBlbQmw3xdmniozKqrVxpmLqnBLLzz1nwX0Uu6rueQ&usqp=CAU')     
@@ -55,8 +172,9 @@ body {
     font-family: arial;
     position: absolute;
     height: 190px;
-    top: 400px;
+    top: 1300px;
     left: 250px;
+    letter-spacing: 3px;
 }
 
 #fontdois{
@@ -64,7 +182,7 @@ body {
     font-family: arial;
     position: absolute;
     width: 200px;
-    top: 450px;
+    top: 1335px;
     left: 250px;
 }
 
@@ -73,7 +191,7 @@ body {
         font-family: arial;
         position: absolute;
         width: 200px;
-        top: 560px;
+        top: 1435px;
         left: 250px;
 }
 
@@ -87,7 +205,7 @@ body {
     font-family: arial;
     position: absolute;
     width: 400px;
-    top: 420px;
+    top: 1335px;
     left: 1000px;
     font: 500;
 }
@@ -104,7 +222,6 @@ body {
 #icone-dois i {
     font-size: 30px;
     color: red;
-    box-shadow: 0px 0px 23px orangered;
 }
 
 #icone-dois {
@@ -112,7 +229,7 @@ body {
     font-family: arial;
     position: absolute;
     width: 400px;
-    top: 420px;
+    top: 1333px;
     left: 1350px;
     font: 500;
 }
@@ -136,7 +253,7 @@ body {
     font-family: arial;
     position: absolute;
     width: 400px;
-    top: 600px;
+    top: 1520px;
     left: 1005px;
     font: 500;
 }
@@ -160,7 +277,7 @@ body {
     font-family: arial;
     position: absolute;
     width: 400px;
-    top: 595px;
+    top: 1520px;
     left: 1355px;
     font: 500;
 }
@@ -172,4 +289,201 @@ body {
     width: 300px;
     top: 80px;
     left: 5px;
+}
+
+#portfolio-um{
+    color: rgb(124, 91, 241);
+    font-family: arial;
+    position: absolute;
+    width: 400px;
+    top: 1870px;
+    left: 810px;
+    font: 500;
+    letter-spacing: 3px;
+}
+
+#portfolio-dois{
+    color: white;
+    font-family: arial;
+    position: absolute;
+    width: 900px;
+    top: 1920px;
+    left: 630px;
+    font: 500;
+    font-size: 50px;
+}
+
+#imagem-portfolio {
+    margin: 70px;
+    width: 300px;
+    padding: 0;
+    position: absolute;
+    height: 400px;
+    top: 2000px;
+    left: 300px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background: transparent url('https://cdn6.campograndenews.com.br/uploads/noticias/2020/03/14/2t8o3ne5g0e8k.jpg');
+    background-position: center;
+}
+
+#imagem-portfolio-dois {
+    margin: 70px;
+    width: 300px;
+    padding: 0;
+    position: absolute;
+    height: 400px;
+    top: 2000px;
+    left: 650px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background: transparent url('https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_Fortnite_image1600w.jpg');
+    background-position: center;
+}
+
+#imagem-portfolio-tres {
+    margin: 70px;
+    width: 300px;
+    padding: 0;
+    position: absolute;
+    height: 400px;
+    top: 2000px;
+    left: 1000px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background: transparent url('https://overwatch2-static.playoverwatch.com/68a9b3f11e33114ffbb29df0a331d5aa61f4b4c9/static/images/share.jpg');
+    background-position: center;
+}
+
+#portfolio-font-um{
+    color: white;
+    font-family: arial;
+    position: absolute;
+    width: 400px;
+    top: 2470px;
+    left: 370px;
+    font: 500;
+}
+
+#portfolio-font-dois{
+    color: white;
+    font-family: arial;
+    position: absolute;
+    width: 400px;
+    top: 2470px;
+    left: 720px;
+    font: 500;
+}
+
+#portfolio-font-tres{
+    color: white;
+    font-family: arial;
+    position: absolute;
+    width: 400px;
+    top: 2470px;
+    left: 1070px;
+    font: 500;
+}
+
+#emote-um{
+    color: white;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 2490px;
+    left: 620px;
+    background-color: orange;
+    position: absolute;
+    display: inline-block;
+    padding: 10px 10px;
+    font-weight: 800;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 4px;                    
+}
+
+#emote-dois{
+    color: white;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 2490px;
+    left: 970px;
+    background-color: orange;
+    position: absolute;
+    display: inline-block;
+    padding: 10px 10px;
+    font-weight: 800;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 4px;                    
+}
+
+#emote-tres{
+    color: white;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 2490px;
+    left: 1320px;
+    background-color: orange;
+    position: absolute;
+    display: inline-block;
+    padding: 10px 10px;
+    font-weight: 800;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 4px;                    
+}
+
+#paragrafo-portfolio-um{
+    color: rgb(165, 164, 164);
+    font-family: arial;
+    position:absolute;
+    width: 300px;
+    top: 2520px;
+    left: 370px;
+}
+
+#paragrafo-portfolio-dois{
+    color: rgb(165, 164, 164);
+    font-family: arial;
+    position:absolute;
+    width: 300px;
+    top: 2520px;
+    left: 720px;
+}
+
+#paragrafo-portfolio-tres{
+    color: rgb(165, 164, 164);
+    font-family: arial;
+    position:absolute;
+    width: 300px;
+    top: 2520px;
+    left: 1070px;
+}
+
+#roda-pe-font{
+    color: rgb(124, 91, 241);
+    font-family: arial;
+    position: absolute;
+    width: 400px;
+    top: 2630px;
+    left: 810px;
+    font: 500;
+}
+
+#emote-roda-pe{
+    color: rgb(124, 91, 241);
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 2652px;
+    left: 905px;                    
 }
