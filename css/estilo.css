@@ -1,9 +1,12 @@
 
 
 body {
-    background-color: black;
+    background: transparent url('https://images6.alphacoders.com/375/thumb-350-375313.jpg');
+    background-repeat: fixed;
+    background-size: cover;
+    background-position: center;
     width: 1850px;
-    height: 2800px;
+    height: 3800px;
 }
 
 #icone-central {
@@ -132,38 +135,42 @@ body {
   
 #logoum{
     margin: 70px;
-    width: 200px;
     padding: 0;
     position: absolute;
-    height: 200px;
-    top: 990px;
-    left: 400px;
     background-repeat: no-repeat;
-    background: transparent url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc1rfrm_ZmRHE06qNxC-uMmJaBLvYvzv1xGzkkuFVwUqVp0EnTICPyZZopxGh3lq-Qris&usqp=CAU')     
+    width: 450px;
+    height: 400px;
+    top: 880px;
+    left: 220px;
+    background: transparent url('https://o.remove.bg/downloads/5e22dd6c-b413-4a20-aa89-c18597c24e89/Riotgames-770x513-removebg-preview.png')     
 }
 
 #logodois{
     margin: 20px;
-    width: 200px;
+    width: 325px;
     padding: 0;
+    background-position: center;
+    background-size: cover;
     position: absolute;
-    height: 190px;
-    top: 1020px;
-    left: 700px;
+    height: 150px;
+    top: 1070px;
+    left: 710px;
     background-repeat: no-repeat;
-    background: transparent url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCghn9QkRx_CxTvLRStYqEz_JkLTuIqAkpng&usqp=CAU')     
+    background: transparent url('https://o.remove.bg/downloads/815e61f4-0eae-43b5-b08c-53bae882b1e0/images-removebg-preview.png')     
 }
 
 #logotres{
     margin: 70px;
-    width: 200px;
+    width: 225px;
     padding: 0;
+    background-position: center;
+    background-size: cover;
     position: absolute;
-    height: 200px;
-    top: 970px;
-    left: 900px;
+    height: 140px;
+    top: 1020px;
+    left: 960px;
     background-repeat: no-repeat;
-    background: transparent url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0llXEUok71pPdCELvtNVnumMTOOBlbQmw3xdmniozKqrVxpmLqnBLLzz1nwX0Uu6rueQ&usqp=CAU')     
+    background: transparent url('https://o.remove.bg/downloads/f2360f33-ea35-4737-b4d6-13a7b605d66d/images-removebg-preview.png')     
 }
 
 
@@ -395,9 +402,9 @@ body {
     background-color: orange;
     position: absolute;
     display: inline-block;
-    padding: 10px 10px;
+    padding: 5px 10px;
     font-weight: 800;
-    font-size: 15px;
+    font-size: 10px;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
@@ -414,9 +421,9 @@ body {
     background-color: orange;
     position: absolute;
     display: inline-block;
-    padding: 10px 10px;
+    padding: 5px 10px;
     font-weight: 800;
-    font-size: 15px;
+    font-size: 10px;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
@@ -433,9 +440,9 @@ body {
     background-color: orange;
     position: absolute;
     display: inline-block;
-    padding: 10px 10px;
+    padding: 5px 10px ;
     font-weight: 800;
-    font-size: 15px;
+    font-size: 10px;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
@@ -469,7 +476,7 @@ body {
     left: 1070px;
 }
 
-#roda-pe-font{
+#roda-pe-font-um{
     color: rgb(124, 91, 241);
     font-family: arial;
     position: absolute;
@@ -479,11 +486,316 @@ body {
     font: 500;
 }
 
-#emote-roda-pe{
+#emote-roda-pe-um{
     color: rgb(124, 91, 241);
     position: absolute;
     width: 10px;
     height: 10px;
     top: 2652px;
     left: 905px;                    
+}
+
+#roda-pe-font-dois{
+    color: rgb(120, 100, 228);
+    font-family: arial;
+    position: absolute;
+    height: 190px;
+    top: 2800px;
+    left: 250px;
+    letter-spacing: 3px;
+}
+
+#roda-pe-font-doisdois{
+    color: white;
+    font-family: arial;
+    position: absolute;
+    width: 700px;
+    top: 2850px;
+    left: 250px;
+    font-size: 50px;
+}
+
+#emote-roda-pe-dois{
+    color: orange;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 2900px;
+    left: 1500px;
+    font-size: 30px;    
+    border: 1px solid orange ;          
+}
+
+#nome-roda-pe-um{
+    color: white;
+    font-family: arial;
+    position: absolute;
+    width: 700px;
+    top: 3050px;
+    left: 350px;
+    font-size: 20px;
+}
+
+#nome-roda-pe-dois{
+    color: white;
+    font-family: arial;
+    position: absolute;
+    width: 700px;
+    top: 3050px;
+    left: 730px;
+    font-size: 20px;
+}
+
+#nome-roda-pe-tres{
+    color: white;
+    font-family: arial;
+    position: absolute;
+    width: 700px;
+    top: 3050px;
+    left: 1125px;
+    font-size: 20px;
+}
+
+#cargo-roda-pe-um{
+    color: black;
+    font-family: arial;
+    position: absolute;
+    width: 700px;
+    top: 3080px;
+    left: 350px;
+    font-size: 15px;
+}
+
+#cargo-roda-pe-dois{
+    color: black;
+    font-family: arial;
+    position: absolute;
+    width: 700px;
+    top: 3080px;
+    left: 730px;
+    font-size: 15px;
+}
+
+#cargo-roda-pe-tres{
+    color: black;
+    font-family: arial;
+    position: absolute;
+    width: 700px;
+    top: 3080px;
+    left: 1125px;
+    font-size: 15px;
+}
+
+#imagem-roda-pe-um {
+    margin: 70px;
+    width: 50px;
+    padding: 0;
+    position: absolute;
+    height: 50px;
+    top: 2990px;
+    left: 220px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background: transparent url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAANlBMVEXk5ueutLersbTn6eqor7Lp6+y2u77h4+TIzM7N0dLR1NbU19mxt7q/xMbZ3N3c3+C6v8HCx8mJwGV6AAAFVUlEQVR4nO2d2XbjIAxAARmMd/v/f3YgSVs7kzY2CCMc3Zc50yffI7GDIgTDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMAzDMBcEQIt67NqmabtxEqAh9xdhAiBGO8vKoRy3f83S+b9fAYC6MapS8gknauxUviRAa/63+7E0jdC5vzEGEFZWv+k9JOVSF+sIYNWv4Vs5qkWUmau6kzv87o5NgWEEMG/yc03VF5equjvgd3MsLIywHBR0inPujz4ACLOzBa5RfV1KhwN1HyDoHacyFKEO0vNUYxGKdVgAC1I83MdsFOknKkRE0KPq3AZv0CZO0JFb4W/0EhlCF8SZcp5CG9UI71SWsGJMN7pSnHJ7/IqeUQylpDpFRclRj1qIKgKSoMvT3Cqv0QNSjjoMzSCihdDP3nLLvEDPeII0g1gjhtB1NvSCiNkKPTO9IOIKutVwbqEnoME2pDYmIqwpnsmt9MSEHEI3YHS5nTaARTdUA6klBuAnKbE0xVk2baG1iOoSGKqGUJpC/ObFCygN+kmaoZSEYog9oblTEdpYnFBn3d+GhEbEo4eF+1B0Nt0SjPc3w4FMV5OmK6W0DAbU5f0PPR3DNIOFVGQMdZ/GsKLT01zfMI0gG57IB2Tp9Q0vP1qkGvHpnCMC8n73F4RmbWlm3pLOzPv6q6dUK2BK50+X38VIM1woOkn6AbuJaXaECXU0n7Crf/2Tmeufrl3/hPQDTrkT3FSglaTi+rdNhB5wDemsnL7BvvVFLkmRb+7R2dBfgRlEUgunbz7gBi3eFVpKK8M10Fz9JjvexIaqINqLEpLdzB2UFxe0Vr7PIPSntF92+UOaaMXcCm+JfWFJ/xFp3NSmhIfAEKNYgqBTDN/RKEPw9iA/sOJAIYLBVSNkMVUjhD8zPdwY1VxWHR59dHZD+n3zS1ymHqrAQ38Y/B8Xxr1VlCpLdzXxF6CXPY6qGsqt2qbF8q7al1JDcSWiNmjR9L9Lqqq3ZVek84Ce7Muqgkr1y1hufm4AqLvFyEdhyFtpSGmWtr6I3gNnU09d29hbec/a/f9SeiuuKgagQW+5iKo386VnGzvMxvSPe6h9b+Zhse04uaZYrKn/8qmzg3mUnn0xEPoeR/Xz0tyaZe4PPoKXG5uhdwZ7pm3eVM62qwupLQxadNYFbk/l0u3gr/qhmahb6tvoflRuFU1n2QmykhrGQQbbrSxNUxOUdHOzQWGdrrnpagu0pqtaWDS9L0kzkgkkwDjvXeseoZKWxNYUiPZdQetg3No4e0lz/b5gd6Rj3mR1S/jAvd8DVKbL1ensLEiO4ThmcdTNOX43x/n8vRw9ps/PjeNybpcD4viufSRKndkcdXtegv5QnXawAWI+O4B3lGpPCaPucgTwTjWcEMaAivmIKJl64AguKI9G4t9Q0GNmP6+Y8jmUxrp8GIVKV11JZ22CK1SiVVXA2Xwq0lzaAKxS1hikUCQl6BQ7bEVigvjXp9CqreOB+0sY2EWCUcC80K8tmV50Dd5bb0hTMiGeHksR980WIlgl61LV10GgQilxSrKX+QLjHSbZRnjHIASRcAQlxvMTgkP9lujKCyPpHPVEPlXUub//PVXUHBztRWFKomqe6QIEo+p+p6rhhUzE/FQXIRgRRPRaF8kINUxVWhYd1QYqEtj+3UngmEh6yr0l9Icvc3/3fsJmp5CiQlkqgpYYBSVpaJrm/uojBA2JaepZJiLkET+0BSWpDHnFn6pybiICtocJ77C9IqR+XVEhDBkRi+poHMerLNLfoNlyfMzH+m3f0zhqCPbxVrAU6NTgZxiGYRiGYRiGYRiGYT6Uf/VaUTW8zb4SAAAAAElFTkSuQmCC');
+    background-position: center;
+    background-size: contain;
+}
+
+#imagem-roda-pe-dois {
+    margin: 70px;
+    width: 50px;
+    padding: 0;
+    position: absolute;
+    height: 50px;
+    top: 2990px;
+    left: 600px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background: transparent url('https://www.politize.com.br/wp-content/uploads/2016/08/imagem-sem-foto-de-perfil-do-facebook-1348864936180_956x5001.jpg');
+    background-position: center;
+    background-size: contain;
+}
+
+#imagem-roda-pe-tres {
+    margin: 70px;
+    width: 50px;
+    padding: 0;
+    position: absolute;
+    height: 50px;
+    top: 2990px;
+    left: 990px;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background: transparent url('https://upload.wikimedia.org/wikipedia/commons/4/43/Foto_Perfil.jpg');
+    background-position: center;
+    background-size: contain;
+}
+
+#paragrafo-roda-pe-um{
+    color: whitesmoke;
+    font-family: arial;
+    position:absolute;
+    width: 330px;
+    top: 3120px;
+    left: 290px;
+    font-size: 13px;
+}
+
+#paragrafo-roda-pe-dois{
+    color: whitesmoke;
+    font-family: arial;
+    position:absolute;
+    width: 330px;
+    top: 3120px;
+    left: 670px;
+    font-size: 13px;
+}
+
+#paragrafo-roda-pe-tres{
+    color: whitesmoke;
+    font-family: arial;
+    position:absolute;
+    width: 330px;
+    top: 3120px;
+    left: 1065px;
+    font-size: 13px;
+}
+
+#emote-cargo-um{
+    color: rgb(247, 236, 88);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3090px;
+    left: 580px;
+    font-size: 10px;    
+}
+
+#emote-cargo-umum{
+    color: rgb(247, 236, 88);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3090px;
+    left: 595px;
+    font-size: 10px;    
+}
+
+#emote-cargo-umumum{
+    color: rgb(247, 236, 88);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3090px;
+    left: 610px;
+    font-size: 10px;    
+}
+
+#emote-cargo-dois{
+    color: rgb(247, 236, 88);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3090px;
+    left: 970px;
+    font-size: 10px;    
+}
+
+#emote-cargo-doisdois{
+    color: rgb(247, 236, 88);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3090px;
+    left: 985px;
+    font-size: 10px;    
+}
+
+#emote-cargo-doisdoisdois{
+    color: rgb(247, 236, 88);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3090px;
+    left: 1000px;
+    font-size: 10px;    
+}
+
+#emote-cargo-tres{
+    color: rgb(247, 236, 88);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3090px;
+    left: 1360px;
+    font-size: 10px;    
+}
+
+#emote-cargo-trestres{
+    color: rgb(247, 236, 88);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3090px;
+    left: 1375px;
+    font-size: 10px;    
+}
+
+#emote-cargo-trestrestres{
+    color: rgb(247, 236, 88);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 3090px;
+    left: 1390px;
+    font-size: 10px;    
+}
+
+#borda-um{
+    background-color: rgb(120, 100, 228);
+    width: 360px;
+    height: 185px;
+    position: absolute;
+    top: 3050px;
+    left: 280px;
+    border-radius: 10px;
+}
+
+#borda-dois{
+    background-color: rgb(120, 100, 228);
+    width: 360px;
+    height: 185px;
+    position: absolute;
+    top: 3050px;
+    left: 660px;
+    border-radius: 10px;
+}
+
+#borda-tres{
+    background-color: rgb(120, 100, 228);
+    width: 360px;
+    height: 185px;
+    position: absolute;
+    top: 3050px;
+    left: 1050px;
+    border-radius: 10px;
+}
+
+#roda-pe-testimonial{
+    color: rgb(124, 91, 241);
+    font-family: arial;
+    position: absolute;
+    width: 400px;
+    top: 3300px;
+    left: 810px;
+    font: 500;
+}
+
+#emote-roda-pe-tres{
+    color: rgb(124, 91, 241);
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 3322px;
+    left: 940px;                    
 }
