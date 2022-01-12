@@ -39,8 +39,9 @@ body {
     display: flex;
     align-items: center;
     align-content: center;
+    width: 1311px;
+    margin: 0 auto;
     justify-content: center;
-    width: 90%;
 }
 
 #logos{
@@ -288,8 +289,9 @@ body {
     flex-wrap: wrap;
     align-items: inherit;
     align-content: center;
-    justify-content: flex-start;
+    justify-content: center;
     text-align: left;
+    width: 455px
 }
 
 #corpo-portfolio{
@@ -303,6 +305,10 @@ body {
     display: flex;
     align-items: center;
     align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
 }
 
 #portfolio{
@@ -361,28 +367,28 @@ body {
 #portfolio-font-um{
     color: white;
     font-family: arial;
-
     width: 400px;
-
-    font: 500;
+    display: inline-block;
+    position: relative;
+    left: 65px;
 }
 
 #portfolio-font-dois{
     color: white;
     font-family: arial;
-
     width: 400px;
-
-    font: 500;
+    display: inline-block;
+    position: relative;
+    left: 66px;
 }
 
 #portfolio-font-tres{
     color: white;
     font-family: arial;
-
     width: 400px;
-  
-    font: 500;
+    display: inline-block;
+    position: relative;
+    left: 66px;
 }
 
 #emote-um{
@@ -398,7 +404,9 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
-    letter-spacing: 4px;                    
+    letter-spacing: 4px;
+    position: relative;
+    left: -69px;                    
 }
 
 #emote-dois{
@@ -414,7 +422,9 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
-    letter-spacing: 4px;                    
+    letter-spacing: 4px; 
+    position: relative;
+    left: -69px;                   
 }
 
 #emote-tres{
@@ -430,7 +440,9 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
-    letter-spacing: 4px;                    
+    letter-spacing: 4px;  
+    position: relative;
+    left: -69px;                  
 }
 
 #paragrafo-portfolio-um{
