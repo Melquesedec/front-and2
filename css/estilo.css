@@ -39,6 +39,8 @@ body {
     display: flex;
     align-items: center;
     align-content: center;
+    justify-content: center;
+    width: 90%;
 }
 
 #logos{
@@ -345,7 +347,6 @@ body {
 }
 
 #imagem-portfolio-tres {
-    margin: 70px;
     width: 300px;
     padding: 0;
 
@@ -588,4 +589,243 @@ body {
 
 #testimonials h5{
     display: inline-block;
+}
+
+#cabeca-um{
+    color: rgb(120, 100, 228);
+    font-family: arial;
+    letter-spacing: 3px;
+    margin-bottom: -20px;
+}
+
+#cabeca-dois{
+    color: white;
+    font-family: arial;
+    width: 700px;
+    font-size: 50px;
+    display: inline-block;
+}
+
+#imagens-time{
+    flex-wrap: wrap;
+    align-items: inherit;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+#corpo-time-dois{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+#imagem-time-um{
+    width: 300px;
+    padding: 0;
+    height: 400px;
+    border-radius: 20px;
+}
+
+#imagem-time-dois{
+    width: 300px;
+    padding: 0;
+    height: 400px;
+    border-radius: 20px;
+}
+
+#imagem-time-tres{
+    width: 300px;
+    padding: 0;
+    height: 400px;
+    border-radius: 20px;
+}
+
+#nome-time-um{
+    color: white;
+    font-family: arial;
+    width: 400px;
+    font: 500;
+}
+
+#nome-time-dois{
+    color: white;
+    font-family: arial;
+    width: 400px;
+    font: 500;
+}
+
+#nome-time-tres{
+    color: white;
+    font-family: arial;
+    width: 400px;
+    font: 500;
+}
+
+#cargo-time-um{
+    color: rgb(165, 164, 164);
+    font-family: arial;
+    margin-top: -10px;
+}
+
+#cargo-time-dois{
+    color: rgb(165, 164, 164);
+    font-family: arial;
+    margin-top: -10px;
+}
+
+#cargo-time-tres{
+    color: rgb(165, 164, 164);
+    font-family: arial;
+    margin-top: -10px;
+
+}
+
+#roda-pe-time{
+    color: rgb(124, 91, 241);
+    font-family: arial;
+}
+
+#emote-time{
+    color: rgb(124, 91, 241);
+    width: 10px;
+    height: 10px;
+}
+
+#pe-time{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#pe-time h5{
+    display: inline-block;
+}
+
+#play h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    height: 100px;
+}
+
+#emote-fim{
+    color: rgb(185, 181, 181);
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+}
+
+#play{
+    align-items: center;
+    align-content: center;
+    margin: 30px;
+    text-align: left;
+    justify-content: center;
+}
+
+#play h5{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#fim{
+    align-content: flex-start;
+    display: flex;
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#casa{
+    align-items: center;
+    align-content: center;
+    margin: 70px;
+    text-align: left;
+    justify-content: center;
+}
+
+#casa h2{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+#casa h4{
+    color:white;
+    font-family: 'Helvetica Neue',;
+    color: gray;
+    height: 5px;
+}
+
+#pagina{
+    align-items: center;
+    align-content: center;
+    margin: 70px;
+    text-align: left;
+    justify-content: center;
+}
+
+#pagina h2{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+#pagina h4{
+    color:white;
+    font-family: 'Helvetica Neue',;
+    color: gray;
+    height: 5px;
+}
+
+#redes{
+    align-items: center;
+    align-content: center;
+    margin: 70px;
+    text-align: left;
+    justify-content: center;
+}
+
+#redes h2{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+#redes h4{
+    color:white;
+    font-family: 'Helvetica Neue',;
+    color: gray;
+    height: 5px;
+}
+
+#portfolio-fim{
+    align-items: center;
+    align-content: center;
+    margin: 70px;
+    text-align: left;
+    justify-content: center;
+}
+
+#portfolio-fim h2{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+#portfolio-fim h4{
+    color:white;
+    font-family: 'Helvetica Neue',;
+    color: gray;
+    height: 5px;
 }
