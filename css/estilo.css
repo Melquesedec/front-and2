@@ -1,11 +1,18 @@
-
+#pag-services{
+    background: transparent url('https://wallpaperaccess.com/full/1560881.png');
+    background-repeat: fixed;
+    background-size: cover;
+    background-position: center;
+}
 
 body {
     background: transparent url('https://images6.alphacoders.com/375/thumb-350-375313.jpg');
     background-repeat: fixed;
     background-size: cover;
     background-position: center;
+    width: auto;
 }
+
 
 #icone-central {
     width: 1000px;
@@ -15,12 +22,111 @@ body {
     background-repeat: no-repeat;
     border-radius: 20px;
     background: transparent url('https://images.unsplash.com/photo-1553481187-be93c21490a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtZXxlbnwwfHwwfHw%3D&w=1000&q=80');
-        
 }
 
-#centroum{
-    display: flex;
-    align-items: center;
+#cabeca-preco{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#plano{
+    color: white;
+    font-family: arial;
+    font-size: 45px;
+    margin: 0px 0px;
+}
+
+#planos{
+    color: rgb(80, 3, 80);
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+#centro-preco{
+    flex-wrap: wrap;
+    align-items: inherit;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+#preco{
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 50px;
+    display: inline-flex;
+    margin: 70px 0px;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+
+}
+
+#preco-um{
+    background-color: rgb(81, 184, 158);
+    width: 300px;
+    height: 600px;
+    border-radius: 60px;
+    display: inline-flex;
+    margin: 70px 15px;
+    justify-content: center;
+}
+
+#preco-dois{
+    background-color: rgb(11, 126, 202);
+    width: 300px;
+    height: 600px;
+    border-radius: 60px;
+    display: inline-flex;
+    margin: 70px 15px;
+    justify-content: center;
+}
+
+#preco-tres{
+    background-color: rgb(236, 198, 73);
+    width: 300px;
+    height: 600px;
+    border-radius: 60px;
+    display: inline-flex;
+    margin: 70px 15px;
+    justify-content: center;
+}
+
+#borda-dois{
+    background-color: white;
+    border: white;
+}
+
+#centro-umum{
+    color: white;
+    flex-wrap: wrap;
+    align-items: inherit;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+#icone-um-preco{
+    flex-wrap: wrap;
+    align-items: inherit;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+#centro-um{
+    color: white;
+
+    flex-wrap: wrap;
+    align-items: inherit;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: center;
 }
 
 #corpo1{
@@ -59,14 +165,19 @@ body {
     width: 100%;
     font-size: 25px;
     display: flex;
-    align-items: center;
+    align-items: left;
     vertical-align: baseline;
     align-content: center;
     flex-direction: column;
+    margin: 0px 90px;
 }
 
 #caixaum{
-    width: 80%;
+    align-content: flex-start;
+    display: inline-block;
+    width: 90%;
+    margin: 0px 100px;
+    text-align: left;
 }
 
 #primeiroparagrafo{
@@ -171,7 +282,7 @@ body {
     background-repeat: no-repeat;
 }
 
-#logotres{
+#logo{
     margin: 70px;
     padding: 0;
     background-position: center;
@@ -593,6 +704,14 @@ body {
                       
 }
 
+#testimonial{
+    align-content: flex-start;
+    display: inline-block;
+    width: 90%;
+    margin: 0px 90px;
+    text-align: left;
+}
+
 #testimonials{
     text-align: center;
     margin: 0 auto;
@@ -610,10 +729,18 @@ body {
     margin-bottom: -20px;
 }
 
+#cabeca-time{
+    align-content: flex-start;
+    display: flex;
+    width: 90%;
+    margin: 0px 100px;
+    text-align: left;
+}
+
 #cabeca-dois{
     color: white;
     font-family: arial;
-    width: 700px;
+    width: 355px;
     font-size: 50px;
     display: inline-block;
 }
@@ -747,10 +874,10 @@ body {
 }
 
 #fim{
-    align-content: flex-start;
+    align-content: center;
     display: flex;
-    width: 100%;
-    margin: 0px auto;
+    width: 90%;
+    margin: 0px 50px;
     text-align: center;
 }
 
