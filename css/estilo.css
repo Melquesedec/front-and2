@@ -10,9 +10,14 @@ body {
     background-repeat: fixed;
     background-size: cover;
     background-position: center;
-    width: auto;
+    height: 0 auto;
 }
 
+#centroum{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
 
 #icone-central {
     width: 1000px;
@@ -58,19 +63,20 @@ body {
     background-color: white;
     width: 300px;
     height: 500px;
-    border-radius: 50px;
-    display: inline-flex;
-    margin: 70px 0px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: inline-block;
+    margin: 100px 0px;
     justify-content: center;
-    position: relative;
-    top: 0px;
-
+    
 }
 
 #preco-um{
     background-color: rgb(81, 184, 158);
     width: 300px;
-    height: 600px;
+    height: 640px;
     border-radius: 60px;
     display: inline-flex;
     margin: 70px 15px;
@@ -80,7 +86,7 @@ body {
 #preco-dois{
     background-color: rgb(11, 126, 202);
     width: 300px;
-    height: 600px;
+    height: 640px;
     border-radius: 60px;
     display: inline-flex;
     margin: 70px 15px;
@@ -88,13 +94,13 @@ body {
 }
 
 #preco-tres{
-    background-color: rgb(236, 198, 73);
+    background-color: gold;
     width: 300px;
-    height: 600px;
+    height: 640px;
     border-radius: 60px;
     display: inline-flex;
     margin: 70px 15px;
-    justify-content: center;
+    justify-content: center;    
 }
 
 #borda-dois{
@@ -102,13 +108,218 @@ body {
     border: white;
 }
 
-#centro-umum{
-    color: white;
+#emote-preco-um{
+    color: rgb(81, 184, 158);
     flex-wrap: wrap;
     align-items: inherit;
     align-content: center;
     justify-content: flex-start;
     text-align: center;
+    position: relative;
+    top: -60px;
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 70px;
+    border: 2px solid rgb(81, 184, 158);
+    background-color: white;
+}
+
+#emote-preco-dois{
+    color: rgb(11, 126, 202);
+    flex-wrap: wrap;
+    align-items: inherit;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: center;
+    position: relative;
+    top: -60px;
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 70px;
+    border: 2px solid rgb(11, 126, 202);
+    background-color: white;
+}
+
+#emote-preco-tres{
+    color: gold;
+    flex-wrap: wrap;
+    align-items: inherit;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: center;
+    position: relative;
+    top: -60px;
+    font-size: 50px;
+    padding: 30px;
+    border-radius: 70px;
+    border: 2px solid gold;
+    background-color: white;
+}
+
+#emote-preco-umum{
+    color: rgb(13, 233, 13);
+    margin: 0px 40px;
+}
+
+#emote-preco-umumum{
+    color: red;
+    margin: 0px 40px;
+}
+
+#emote-preco-doisdois{
+    color: rgb(13, 233, 13);
+    margin: 0px 40px;
+}
+
+#emote-preco-doisdoisdois{
+    color: red;
+    margin: 0px 40px;
+}
+
+#emote-preco-trestres{
+    color: rgb(13, 233, 13);
+    margin: 0px 40px;
+}
+
+#botao-um{
+    background-color: rgb(81, 184, 158);
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+#botao-dois{
+    background-color: rgb(11, 126, 202);
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+#botao-tres{
+    background-color: gold;
+    display: inline-block;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+#centro-umum h5{
+    position: relative;
+    left: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px auto;
+}
+
+#centro-umumum h5{
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#centro-umum{
+    flex-wrap: wrap;
+    align-items: inherit;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+
+#centro-umum h2{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -20px;
+    color: rgb(81, 184, 158);
+}
+
+#centro-umum h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#centro-doisdois h5{
+    position: relative;
+    left: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px auto;
+}
+
+#centro-doisdoisdois h5{
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#centro-doisdois{
+    flex-wrap: wrap;
+    align-items: inherit;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+
+#centro-doisdois h2{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -20px;
+    color: rgb(11, 126, 202);
+}
+
+#centro-doisdois h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#centro-trestres h5{
+    position: relative;
+    left: -40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px auto;
+}
+
+#centro-trestrestres h5{
+    flex-wrap: wrap;
+    align-items: inherit;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#centro-trestres{
+    flex-wrap: wrap;
+    align-items: inherit;
+    align-content: center;
+    justify-content: flex-start;
+    text-align: center;
+    position: relative;
+    top: -50px;
+}
+
+#centro-trestres h2{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -20px;
+    color: gold;
+}
+
+#centro-trestres h3{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #icone-um-preco{
@@ -121,7 +332,6 @@ body {
 
 #centro-um{
     color: white;
-
     flex-wrap: wrap;
     align-items: inherit;
     align-content: center;
@@ -162,7 +372,7 @@ body {
 #centrodois{
     color: white;
     font-family: arial;
-    width: 100%;
+    width: 90%;
     font-size: 25px;
     display: flex;
     align-items: left;
