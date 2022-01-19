@@ -1303,7 +1303,14 @@ body {
     font-size: 15px;
     font-weight: 300;
     border-radius: 20px;
-    margin: 125px 40px; 
+    margin: 77px 40px; 
     padding: 10px 380px;
+}
+
+.mensagem-contato{
+    width: 800px !important;
+    height: 150px;
+    /* margin: 0 !important; */
+    padding: 0 !important;
 }
 
