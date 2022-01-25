@@ -123,7 +123,12 @@ body {
     border-radius: 70px;
     border: 2px solid rgb(81, 184, 158);
     background-color: white;
-    
+    transition: 0.7s all;
+}
+
+#emote-preco-um:hover{
+    transform: rotate(360deg);
+    transition: 0.7s all;
 }
 
 #emote-preco-dois{
@@ -140,6 +145,12 @@ body {
     border-radius: 70px;
     border: 2px solid rgb(11, 126, 202);
     background-color: white;
+    transition: 0.7s all;
+}
+
+#emote-preco-dois:hover{
+    transform: rotate(360deg);
+    transition: 0.7s all;
 }
 
 #emote-preco-tres{
@@ -156,6 +167,12 @@ body {
     border-radius: 70px;
     border: 2px solid gold;
     background-color: white;
+    transition: 0.7s all;
+}
+
+#emote-preco-tres:hover{
+    transform: rotate(360deg);
+    transition: 0.7s all;
 }
 
 #emote-preco-umum{
@@ -1206,7 +1223,7 @@ body {
     font-size: 35px;
     font-weight: 600;
     height: auto;
-    margin: 30px 90px;
+    margin: 30px 320px;
 }
 
 #localizacao-contato h3{
@@ -1303,8 +1320,8 @@ body {
     font-size: 15px;
     font-weight: 300;
     border-radius: 20px;
-    margin: 77px 40px; 
-    padding: 10px 380px;
+    margin: 20px 20px; 
+    padding: 10px 370px;
 }
 
 .mensagem-contato{
