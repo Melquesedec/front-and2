@@ -6,7 +6,7 @@
 }
 
 body {
-    background: transparent url('https://images6.alphacoders.com/375/thumb-350-375313.jpg');
+    background: transparent url('https://3.bp.blogspot.com/-B3ehzJueOvM/XHKV0vZLYWI/AAAAAAAAC0Y/LwEDcZbb8Lkd1pMFNllCP8x5F2KOKnD3wCKgBGAs/w5120-h2160-c/black-red-abstract-polygon-3d-4k-45.jpg');
     background-repeat: fixed;
     background-size: cover;
     background-position: center;
@@ -127,7 +127,7 @@ body {
 }
 
 #emote-preco-um:hover{
-    transform: rotate(360deg);
+    transform: rotatey(360deg);
     transition: 0.7s all;
 }
 
@@ -418,7 +418,7 @@ body {
 }
 
 #cor {
-    background-color: blueviolet;
+    background-color: red;
     display: inline-block;
     padding: 10px 10px;
     color: white;
@@ -432,8 +432,7 @@ body {
     overflow: hidden;
     letter-spacing: 4px;
     margin-top: 40px;
-    box-shadow: 0 0 5px blueviolet,
-                    0 0 25px blueviolet;
+    box-shadow: 0 0 5px red, 0 0 25px red;
     width: 200px;
 }
 
@@ -452,16 +451,20 @@ body {
 .cabecalho a, label {
     display: inline;
     text-decoration: none;
-    color: #fff;
+    color: white;
     font-weight: 900; 
     /* font-weight: bold; */
     transition: 0.7s all;
 }
 
+.cabecalho a, label:hover{
+    color: red;
+}
+
 .cabecalho a:hover {
     transition: 0.7s all;
     color: white;
-    box-shadow: 0px 5px 0px rgb(74, 8, 228);    
+    background-color: red;   
     margin: 5px;
     border-radius: 20px;
     text-decoration: none;
@@ -492,15 +495,21 @@ body {
 }
 
 #patrocinio{
-    color: rgb(80, 82, 99);
+    color: white;
     font: 200;
     font-family: arial;
 }
   
 #logoum{
-    margin: 70px;
+    margin: 20px;
+    width: 150px;
     padding: 0;
     background-repeat: no-repeat;
+    filter: grayscale(1);
+}
+
+#logoum:hover{
+    width: 200px;
 }
 
 #logodois{
@@ -532,7 +541,7 @@ body {
 }
 
 #font{
-    color: rgb(120, 100, 228);
+    color: red;
     font-family: arial;
     letter-spacing: 3px;
 }
@@ -549,16 +558,10 @@ body {
         width: 200px;
 }
 
-#icone-um i {
-    font-size: 30px;
-    color: rgb(82, 36, 189);
-}
-
 #icone-um {
-    color: white;
-    font-family: arial;
+    color: rgb(82, 36, 189);
     width: 400px;
-    font: 500;
+    font-size: 30px;
 }
 
 #paragrafo-um{
@@ -568,16 +571,10 @@ body {
 
 }
 
-#icone-dois i {
-    font-size: 30px;
-    color: red;
-}
-
 #icone-dois {
-    color: white;
-    font-family: arial;
+    color: red;
     width: 400px;
-    font: 500;
+    font-size: 30px;
 }
 
 #paragrafo-dois{
@@ -586,16 +583,11 @@ body {
     width: 300px;
 }
 
-#icone-tres i {
-    font-size: 30px;
-    color: greenyellow;
-}
 
 #icone-tres{
-    color: white;
-    font-family: arial;
+    color: greenyellow;
     width: 400px;
-    font: 500;
+    font-size: 30px;
 }
 
 #paragrafo-tres{
@@ -604,18 +596,10 @@ body {
     width: 300px;
 }
 
-#icone-quatro i {
-    font-size: 30px;
-    color: orange;
-}
-
 #icone-quatro{
-    color: white;
-    font-family: arial;
-
+    color: orange;
     width: 400px;
-
-    font: 500;
+    font-size: 30px;
 }
 
 #paragrafo-quatro{
@@ -659,9 +643,8 @@ body {
 }
 
 #portfolio-um{
-    color: rgb(124, 91, 241);
+    color: red;
     font-family: arial;
-    font: 500;
     letter-spacing: 3px;
 }
 
@@ -680,6 +663,12 @@ body {
     background-repeat: no-repeat;
     background: transparent url('https://cdn6.campograndenews.com.br/uploads/noticias/2020/03/14/2t8o3ne5g0e8k.jpg');
     background-position: center;
+    transition: 1.5s all;
+}
+
+#imagem-portfolio-um:hover{
+    transform: rotatey(360Deg);
+    transition: 1.5s all;
 }
 
 #imagem-portfolio-dois {
@@ -690,18 +679,28 @@ body {
     background-repeat: no-repeat;
     background: transparent url('https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_Fortnite_image1600w.jpg');
     background-position: center;
+    transition: 1.5s all;
+}
+
+#imagem-portfolio-dois:hover{
+    transform: rotatey(360Deg);
+    transition: 1.5s all;
 }
 
 #imagem-portfolio-tres {
     width: 300px;
     padding: 0;
-
     height: 400px;
-
     border-radius: 20px;
     background-repeat: no-repeat;
     background: transparent url('https://overwatch2-static.playoverwatch.com/68a9b3f11e33114ffbb29df0a331d5aa61f4b4c9/static/images/share.jpg');
     background-position: center;
+    transition: 1.5s all;
+}
+
+#imagem-portfolio-tres:hover{
+    transform: rotatey(360Deg);
+    transition: 1.5s all;
 }
 
 #portfolio-font-um{
@@ -711,6 +710,10 @@ body {
     display: inline-block;
     position: relative;
     left: 65px;
+}
+
+#font-um{
+    color: white;
 }
 
 #portfolio-font-dois{
@@ -735,36 +738,31 @@ body {
     color: white;
     width: 10px;
     height: 10px;
-
     background-color: orange;
-    display: inline-block;
+    display: flex;
     padding: 5px 10px;
     font-weight: 800;
     font-size: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    letter-spacing: 4px;
     position: relative;
     left: -69px;                    
+}
+
+#emote-um:hover{
+    width: 20px;
+    height: 20px;
 }
 
 #emote-dois{
     color: white;
     width: 10px;
     height: 10px;
-
     background-color: orange;
     display: inline-block;
     padding: 5px 10px;
     font-weight: 800;
     font-size: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    letter-spacing: 4px; 
     position: relative;
-    left: -69px;                   
+    left: -69px;                 
 }
 
 #emote-tres{
@@ -807,11 +805,13 @@ body {
 }
 
 #roda-pe-font-um{
-    color: rgb(124, 91, 241);
+    color: red;
     font-family: arial;
-    font: 500;
     display: inline;
+}
 
+#roda-pe-font-um:hover{
+    color: white;
 }
 
 #roda-pe-geral{
@@ -822,14 +822,17 @@ body {
 }
 
 #emote-roda-pe-um{
-    color: rgb(124, 91, 241);
+    color: red;
     width: 10px;
-    height: 10px;
-                  
+    height: 10px;           
+}
+
+#emote-roda-pe-um:hover{
+    color: white;
 }
 
 #roda-pe-font-dois{
-    color: rgb(120, 100, 228);
+    color: red;
     font-family: arial;
     letter-spacing: 3px;
     margin-bottom: -20px;
@@ -844,11 +847,12 @@ body {
 }
 
 #emote-roda-pe-dois{
-    color: orange;
+    color: red;
     width: 30px;
     height: 30px;
     font-size: 30px;    
-    border: 1px solid orange ;  
+    background-color: black;
+    border: 5px solid black ;  
     float: right;
     margin-top: 50px;        
 }
@@ -862,7 +866,7 @@ body {
 
 
 #cargo-roda-pe-um{
-    color: black;
+    color: gray;
     font-family: arial;
     font-size: 13px;
     margin-top: 0px;
@@ -873,9 +877,8 @@ body {
     padding: 0;
     height: 50px;
     border-radius: 50px;
-    margin-top: 15px;
     display: inline-block;
-    margin-bottom: -10px;
+    margin: -10px 3px;
 }
 
 #paragrafo-roda-pe-um{
@@ -883,6 +886,7 @@ body {
     font-family: arial;
     width: 330px;
     font-size: 13px;
+    margin: 10px;
 }
 
 #estrela{
@@ -891,7 +895,7 @@ body {
 }
 
 #roda-pe-um{
-        align-items: center;
+    align-items: center;
     align-content: center;
     width: 100%;
     /* display: flex; */
@@ -900,20 +904,24 @@ body {
     flex-wrap: nowrap;
 }
 
+#roda-pe-um:hover{
+    color: white;
+}
+
 #paragrafo-roda-pe-dois{
     color: whitesmoke;
     font-family: arial;
     width: 330px;
-   
+    margin: 10px;
     font-size: 13px;
 }
 
 #paragrafo-roda-pe-tres{
     color: whitesmoke;
     font-family: arial;
-    width: 330px;
-    
+    width: 330px;  
     font-size: 13px;
+    margin: 10px;
 }
 
 #emote-cargo-um{
@@ -922,15 +930,23 @@ body {
 }
 
 #roda-pe-testimonial{
-    color: rgb(124, 91, 241);
+    color: red;
     font-family: arial;
 }
 
+#roda-pe-testimonial:hover{
+    color: white;
+}
+
 #emote-roda-pe-tres{
-    color: rgb(124, 91, 241);
+    color: red;
     width: 10px;
     height: 10px;
-                      
+    margin: 10px;                   
+}
+
+#emote-roda-pe-tres:hover{
+    color: white;
 }
 
 #testimonial{
@@ -947,12 +963,16 @@ body {
     width: 100%;
 }
 
+#testimonials:hover{
+    color: white;
+}
+
 #testimonials h5{
     display: inline-block;
 }
 
 #cabeca-um{
-    color: rgb(120, 100, 228);
+    color: red;
     font-family: arial;
     letter-spacing: 3px;
     margin-bottom: -20px;
@@ -1054,14 +1074,22 @@ body {
 }
 
 #roda-pe-time{
-    color: rgb(124, 91, 241);
+    color: red;
     font-family: arial;
 }
 
+#roda-pe-time:hover{
+    color: white;
+}
+
 #emote-time{
-    color: rgb(124, 91, 241);
+    color: red;
     width: 10px;
     height: 10px;
+}
+
+#emote-time:hover{
+    color: white;
 }
 
 #pe-time{
@@ -1087,6 +1115,44 @@ body {
     font-size: 30px;
     width: 60px;
     height: 60px;
+}
+
+#emote-fim-dois{
+    color: rgb(185, 181, 181);
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+}
+
+#emote-fim-tres{
+    color: rgb(185, 181, 181);
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+}
+
+#emote-fim-quatro{
+    color: rgb(185, 181, 181);
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+}
+
+
+#emote-fim:hover{
+    color: #1877f2;
+}
+
+#emote-fim-dois:hover{
+    color: #2aa9e0;
+}
+
+#emote-fim-tres:hover{
+    color: #9146ff;
+}
+
+#emote-fim-quatro:hover{
+    color: #ff0000;
 }
 
 #play{
@@ -1118,11 +1184,14 @@ body {
     justify-content: center;
 }
 
+#casa h4:hover{
+    color: white;
+}
+
 #casa h2{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
 
 #casa h4{
@@ -1143,8 +1212,7 @@ body {
 #pagina h2{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 
 #pagina h4{
