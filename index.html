@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <link rel="stylesheet" href="css/carousel.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="css/estilo.css">
@@ -8,6 +9,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aula 04</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/carousel1.js"></script>
 </head>
 <body>
     <header class="cabecalho">
@@ -121,9 +124,8 @@
         <h3 id="roda-pe-font-dois">TESTIMONIAL</h3>
         <h1 id="roda-pe-font-doisdois">What are they saying?</h1> 
         </div>
-        <i id="emote-roda-pe-dois" class="fas fa-long-arrow-alt-right"></i>
     </div>
-    <div id="corpo3" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="200">
+    <div id="corpo3" class="main-comentarios owl-carousel">
         <div id="roda-pe-geral">
             <div id="estrela">
                 <i id="emote-cargo-um" class="fas fa-star"></i>
@@ -172,7 +174,72 @@
             <p id="paragrafo-roda-pe-tres">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nihil ab quae eos tempore doloribus accusantium, minima facilis nam beatae maxime culpa aliquid, totam dolor repudiandae, illo quibusdam blanditiis. Neque!
             Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
+        <div id="roda-pe-geral">
+            <div id="estrela">
+                <i id="emote-cargo-um" class="fas fa-star"></i>
+                <i id="emote-cargo-um" class="fas fa-star"></i>
+                <i id="emote-cargo-um" class="fas fa-star"></i>
+                <i id="emote-cargo-um" class="fas fa-star"></i>
+                <i id="emote-cargo-um" class="fas fa-star"></i>
+            </div>
+        <div>
+            <img id="imagem-roda-pe-um" src="https://upload.wikimedia.org/wikipedia/commons/4/43/Foto_Perfil.jpg">
+            <h1 id="nome-roda-pe-um">Noah Jones <p id="cargo-roda-pe-um">Desing of Xxxx Games</p></h1> 
         </div>
+            <p id="paragrafo-roda-pe-tres">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nihil ab quae eos tempore doloribus accusantium, minima facilis nam beatae maxime culpa aliquid, totam dolor repudiandae, illo quibusdam blanditiis. Neque!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div id="roda-pe-geral">
+            <div id="estrela">
+                <i id="emote-cargo-um" class="fas fa-star"></i>
+                <i id="emote-cargo-um" class="fas fa-star"></i>
+                <i id="emote-cargo-um" class="fas fa-star"></i>
+                <i id="emote-cargo-um" class="fas fa-star"></i>
+                <i id="emote-cargo-um" class="fas fa-star"></i>
+            </div>
+        <div>
+            <img id="imagem-roda-pe-um" src="https://upload.wikimedia.org/wikipedia/commons/4/43/Foto_Perfil.jpg">
+            <h1 id="nome-roda-pe-um">Noah Jones <p id="cargo-roda-pe-um">Desing of Xxxx Games</p></h1> 
+        </div>
+            <p id="paragrafo-roda-pe-tres">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nihil ab quae eos tempore doloribus accusantium, minima facilis nam beatae maxime culpa aliquid, totam dolor repudiandae, illo quibusdam blanditiis. Neque!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div id="roda-pe-geral">
+            <div id="estrela">
+                <i id="emote-cargo-um" class="fas fa-star"></i>
+                <i id="emote-cargo-um" class="fas fa-star"></i>
+                <i id="emote-cargo-um" class="fas fa-star"></i>
+                <i id="emote-cargo-um" class="fas fa-star"></i>
+                <i id="emote-cargo-um" class="fas fa-star"></i>
+            </div>
+        <div>
+            <img id="imagem-roda-pe-um" src="https://upload.wikimedia.org/wikipedia/commons/4/43/Foto_Perfil.jpg">
+            <h1 id="nome-roda-pe-um">Noah Jones <p id="cargo-roda-pe-um">Desing of Xxxx Games</p></h1> 
+        </div>
+            <p id="paragrafo-roda-pe-tres">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nihil ab quae eos tempore doloribus accusantium, minima facilis nam beatae maxime culpa aliquid, totam dolor repudiandae, illo quibusdam blanditiis. Neque!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        </div>
+    <script>
+        $(".main-comentarios").owlCarousel({
+            margin: 10,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 4000,
+            autoplayHoverPause: true,
+            responsive:{
+                600:{
+                    items: 1
+                },
+                900:{
+                    items: 1
+                },
+                1000:{
+                    items:3
+                }
+            }
+        })
+    </script>
         <div id="testimonials">
             <h5 id="roda-pe-testimonial">See all testimonials<i id="emote-roda-pe-tres" class="fas fa-long-arrow-alt-right"></i></h5>
         </div>
