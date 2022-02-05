@@ -1,12 +1,10 @@
-#pag-services{
-    background: transparent url('https://wallpaperaccess.com/full/1560881.png');
-    background-repeat: fixed;
-    background-size: cover;
-    background-position: center;
+*{
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    background: transparent url('https://3.bp.blogspot.com/-B3ehzJueOvM/XHKV0vZLYWI/AAAAAAAAC0Y/LwEDcZbb8Lkd1pMFNllCP8x5F2KOKnD3wCKgBGAs/w5120-h2160-c/black-red-abstract-polygon-3d-4k-45.jpg');
+    background: transparent url('https://images7.alphacoders.com/109/1097969.jpg');
     background-repeat: fixed;
     background-size: cover;
     background-position: center;
@@ -390,7 +388,7 @@ body {
 #centrodois{
     color: white;
     font-family: arial;
-    width: 90%;
+    width: 28%;
     font-size: 25px;
     display: flex;
     align-items: left;
@@ -1418,16 +1416,127 @@ body {
     }
 
     #icone-central{
-        width: 100%;
+        width: 78%;
         height: 100%;
+        margin: 19px;
     }
     #centroum{
         width: 100%;
         height: 100%;
-        display: block;
+        display: table-row-group;
+        align-items: center;
+        justify-content: center;
+        text-align: inherit;
+        margin: -50px;
+    }
+    #corpo2 {
+        display: inline-block;
+        align-items: center;
+        align-content: center;
+    }
+    #icone {
+        width: 74%;
         align-items: center;
         justify-content: center;
         text-align: center;
+    }
+    #paragrafo-um {
+        width: 389px;
+    }
+    #paragrafo-dois {
+        width: 389px;
+    }
+    #paragrafo-tres {
+        width: 389px;
+    }
+    #paragrafo-quatro {
+        width: 389px;
+    }
+    #portfolio-font-um {
+        width: 360px;
+    }
+    #portfolio-font-dois {
+        width: 360px;
+    }
+    #portfolio-font-tres {
+        width: 360px;
+    }
+    #imagens-portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: inherit;
+        align-content: center;
+        justify-content: center;
+        text-align: left;
+        width: 390px;
+    }
+    #paragrafo-portfolio-um {
+        width: 285px;
+    }
+    #paragrafo-portfolio-um {
+        width: 285px;
+    }
+    #paragrafo-portfolio-um {
+        width: 285px;
+    }
+    #roda-pe-font-doisdois {
+        color: white;
+        font-family: arial;
+        width: 350px;
+        font-size: 34px;
+        display: inline-block;
+    }
+    #icones {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        width: 134%;
+        flex-wrap: wrap;
+    }
+    #centrodois {
+        color: white;
+        font-family: arial;
+        width: 65%;
+        font-size: 25px;
+        display: flex;
+        vertical-align: baseline;
+        align-content: center;
+        flex-direction: column;
+        margin: 0px 60px;
+        text-align: inherit;
+    }
+    #primeiroparagrafo {
+        color: rgb(165, 164, 164);
+        font-family: arial;
+        width: 326px;
+        font-size: 20px;
+        align-items: left;
+        justify-content: center;
+    }
+    #cor {
+        background-color: red;
+        display: block;
+        padding: 8px 10px;
+        color: white;
+        font-size: 15px;
+        font-weight: 800;
+        border-radius: 20px;
+        margin: 31px;
+        text-transform: uppercase;
+        text-decoration: none;
+        transition: 0.5s;
+        overflow: hidden;
+        letter-spacing: 4px;
+        margin-top: 40px;
+        box-shadow: 0 0 5px red, 0 0 25px red;
+        width: 200px;
+    }
+    .cabecalho ul {
+        height: 276px;
+        background-color: black;
+        opacity: 0.6;
+        padding: 25px 50px;
+        border-radius: 50px;
     }
     #patrocinio{
         width: 100%;
@@ -1453,9 +1562,13 @@ body {
         text-align: center;
     }
     #testimonial{
-        width: 100%;
+        width: 57%;
         height: 10%;
         text-align: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: inline-grid;
     }
     #roda-pe-um{
         width: 100%;
@@ -1482,6 +1595,7 @@ body {
         width: 50%;
         margin: 0 auto;
         justify-content: center;
+        text-align: center;
     }
     #corpo-time-dois{
         text-align: center;
@@ -1492,7 +1606,46 @@ body {
         text-align: center;
         width: 100%;
         display: block;
-
+    }
+    #cabeca-contato {
+        margin: 30px 135px;
+    }
+    #tudo-contato {
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        margin: 0 18px;
+        flex-direction: column;
+    }
+    #localizacao-contato {
+        width: 350px;
+        height: 170px;
+    }
+    #branco-contato {
+        background-color: white;
+        flex-direction: column;
+        width: 363px;
+        height: 702px;
+    }
+    #nome-sobre {
+        display: table-row-group;
+    }
+    #email-telefone {
+        display: table-row-group;
+    }
+    .mensagem-contato {
+        width: 330px !important;
+        height: 150px;
+        display: flex;
+    }
+    #enviar-contato {
+        padding: 10px 130px;
+    }
+    #nome-contato {
+        width: 320px;
+    }  
+    #email-contato {
+        width: 320px;
     }
 }
 
