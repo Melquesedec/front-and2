@@ -870,7 +870,7 @@ body {
 #paragrafo-roda-pe-um{
     color: whitesmoke;
     font-family: arial;
-    width: 330px;
+    /* width: 330px; */
     font-size: 13px;
     margin: 10px;
 }
@@ -897,7 +897,7 @@ body {
 #paragrafo-roda-pe-dois{
     color: whitesmoke;
     font-family: arial;
-    width: 330px;
+    /* width: 330px; */
     margin: 10px;
     font-size: 13px;
 }
@@ -905,7 +905,7 @@ body {
 #paragrafo-roda-pe-tres{
     color: whitesmoke;
     font-family: arial;
-    width: 330px;  
+    /* width: 330px;   */
     font-size: 13px;
     margin: 10px;
 }
@@ -1406,207 +1406,205 @@ body {
     background-color: white !important;
 }
 
-@media (max-width: 900px) {
-    .cabecalho  {
-        font-size: 1.8rem;
-        width: 100%;
-        height: 100%;
-        padding: 8px;
-        text-align: center;
-    }
-
-    #icone-central{
-        width: 78%;
-        height: 100%;
-        margin: 19px;
-    }
-    #centroum{
-        width: 100%;
-        height: 100%;
-        display: table-row-group;
-        align-items: center;
+@media (max-width: 1300px) {
+    body{
         justify-content: center;
-        text-align: inherit;
-        margin: -50px;
-    }
-    #corpo2 {
-        display: inline-block;
         align-items: center;
-        align-content: center;
-    }
-    #icone {
-        width: 74%;
-        align-items: center;
-        justify-content: center;
         text-align: center;
+        align-items: center;
     }
-    #paragrafo-um {
-        width: 389px;
-    }
-    #paragrafo-dois {
-        width: 389px;
-    }
-    #paragrafo-tres {
-        width: 389px;
-    }
-    #paragrafo-quatro {
-        width: 389px;
-    }
-    #portfolio-font-um {
-        width: 360px;
-    }
-    #portfolio-font-dois {
-        width: 360px;
-    }
-    #portfolio-font-tres {
-        width: 360px;
-    }
-    #imagens-portfolio {
+    #centroum {
         display: flex;
-        flex-wrap: wrap;
-        align-items: inherit;
+        align-items: center;
+        display: inline-flex;
         align-content: center;
-        justify-content: center;
-        text-align: left;
-        width: 390px;
+        width: 100%;
     }
-    #paragrafo-portfolio-um {
-        width: 285px;
+    #icone-central {
+        width: 50%;
+        margin: 70px;
+        height: 350px;
+        padding: 0;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        background: transparent url(https://images.unsplash.com/photo-1553481187-be93c21490a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtZXxlbnwwfHwwfHw%3D&w=1000&q=80);
     }
-    #paragrafo-portfolio-um {
-        width: 285px;
-    }
-    #paragrafo-portfolio-um {
-        width: 285px;
-    }
-    #roda-pe-font-doisdois {
-        color: white;
-        font-family: arial;
-        width: 350px;
-        font-size: 34px;
+    #caixaum {
+        align-content: flex-start;
         display: inline-block;
+        width: 30%;
+        margin: 0px 40px;
+        text-align: left;
     }
     #icones {
         display: flex;
         align-items: center;
         align-content: center;
-        width: 134%;
+        width: 60%;
         flex-wrap: wrap;
+    }
+    #icone {
+        width: 43%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #roda-pe-font-dois {
+        color: red;
+        font-family: arial;
+        letter-spacing: 3px;
+        /* margin-bottom: -20px; */
+    }
+    #roda-pe-font-doisdois {
+        color: white;
+        font-family: arial;
+        width: 700px;
+        font-size: 50px;
+        display: inline-block;
+        margin: 10px 10px 20px 10px;
+    }
+    #testimonial {
+        align-content: flex-start;
+        display: inline-block;
+        width: 66%;
+        /* margin: 8px 50px 19px 18px; */
+        margin-left: -20%;
+        text-align: left;
+    }
+}
+
+@media (max-width: 700px) {
+    body{
+        justify-content: center !important;
+        align-items: center !important;
+        text-align: center !important;
+        align-items: center !important;
     }
     #centrodois {
         color: white;
         font-family: arial;
-        width: 65%;
+        width: 28%;
         font-size: 25px;
         display: flex;
+        align-items: left;
         vertical-align: baseline;
         align-content: center;
         flex-direction: column;
-        margin: 0px 60px;
-        text-align: inherit;
-    }
-    #primeiroparagrafo {
-        color: rgb(165, 164, 164);
-        font-family: arial;
-        width: 326px;
-        font-size: 20px;
-        align-items: left;
-        justify-content: center;
+        margin: 0px 26px;
     }
     #cor {
         background-color: red;
-        display: block;
-        padding: 8px 10px;
+        display: inline-block;
+        padding: 10px 10px;
         color: white;
         font-size: 15px;
         font-weight: 800;
         border-radius: 20px;
-        margin: 31px;
+        margin: 10px 10px 10px 80px;
         text-transform: uppercase;
         text-decoration: none;
         transition: 0.5s;
         overflow: hidden;
         letter-spacing: 4px;
-        margin-top: 40px;
+        /* margin-top: 40px; */
         box-shadow: 0 0 5px red, 0 0 25px red;
         width: 200px;
     }
-    .cabecalho ul {
-        height: 276px;
-        background-color: black;
-        opacity: 0.6;
-        padding: 25px 50px;
-        border-radius: 50px;
-    }
-    #patrocinio{
-        width: 100%;
-        height: 100%;
-        display: block;
+    #corpo1 {
+        display: flex;
         align-items: center;
+        flex-wrap: wrap;
         justify-content: center;
-        margin: 0 auto;
-        text-align: center;
+        margin: 10px 10px 10px 50px;
     }
-    #logos{
-        width: 100%;
-        height: 100%;
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-    }
-    #corpo-imagem{
-        width: 100%;
-        height: 100%;
-        display: block;
-        margin: 0 auto;
-        text-align: center;
-    }
-    #testimonial{
-        width: 57%;
-        height: 10%;
-        text-align: center;
-        justify-content: center;
+    #corpo1 {
+        display: flex;
         align-items: center;
-        text-align: center;
-        display: inline-grid;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-    #roda-pe-um{
-        width: 100%;
-        height: 100%;
-        display: block;
-        text-align: center; 
+    #logos {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px 10px 10px 50px;
     }
-    #corpo3{
+    #portfolio {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 10px 10px 10px 50px;
+    }
+    #corpo-imagem {
+        display: flex;
         align-items: center;
         align-content: center;
         width: 100%;
         margin: 0 auto;
+        text-align: center;
         justify-content: center;
+        flex-direction: column;
     }
-    #roda-pe-geral{
-        width: 100%;
-        background-color: #222;
-        margin: 0px 10px;
-        border-radius: 15px;
+    #fontdois {
+        color: white;
+        font-family: arial;
+        width: 164px;
     }
-    #cabeca-time{
+    #icones {
+        display: flex;
         align-items: center;
         align-content: center;
-        width: 50%;
-        margin: 0 auto;
-        justify-content: center;
-        text-align: center;
+        width: 75%;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
     }
-    #corpo-time-dois{
-        text-align: center;
-        width: 100%;
-        display: block;
+    #caixaum {
+        align-content: flex-start;
+        display: inline-block;
+        width: 30%;
+        margin: 0px 24px;
+        text-align: left;
     }
-    #fim{
-        text-align: center;
-        width: 100%;
-        display: block;
+    #paragrafodois {
+        color: rgb(165, 164, 164);
+        font-family: arial;
+        width: 139px;
     }
+    #icone-central {
+        width: 73%;
+        margin: 10px 10px 130px 85px;
+        height: 120px;
+        padding: 0;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        background: transparent url(https://images.unsplash.com/photo-1553481187-be93c21490a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtZXxlbnwwfHwwfHw%3D&w=1000&q=80);
+    }
+    #primeiroparagrafo {
+        color: rgb(165, 164, 164);
+        font-family: arial;
+        width: 359px;
+        font-size: 20px;
+        margin: 15px 10px 1px 1px;
+    }
+    #centroum {
+        /* display: flex; */
+        align-items: center;
+        display: flex;
+        align-content: center;
+        width: 65%;
+    }
+    #primeiroparagrafo {
+        color: rgb(165, 164, 164);
+        font-family: arial;
+        width: 360px;
+        font-size: 20px;
+    }
+
     #cabeca-contato {
         margin: 30px 135px;
     }
@@ -1624,7 +1622,7 @@ body {
     #branco-contato {
         background-color: white;
         flex-direction: column;
-        width: 363px;
+        width: 375px;
         height: 702px;
     }
     #nome-sobre {
@@ -1648,5 +1646,7 @@ body {
         width: 320px;
     }
 }
+
+
 
 
