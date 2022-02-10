@@ -254,10 +254,10 @@ body {
     top: -50px;
 }
 
-#centro-umum h2{
+#centro-umum h2 {
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    top: -20px;
+    top: 0px;
     color: rgb(81, 184, 158);
 }
 
@@ -294,7 +294,7 @@ body {
 #centro-doisdois h2{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    top: -20px;
+    top: 0px;
     color: rgb(11, 126, 202);
 }
 
@@ -331,7 +331,7 @@ body {
 #centro-trestres h2{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    top: -20px;
+    top: 0px;
     color: gold;
 }
 
@@ -1407,179 +1407,8 @@ body {
     background-color: white !important;
 }
 
-@media (max-width: 900px) {
-    #icone-central {
-        width: 300px;
-        /* margin: 67px; */
-        height: 300px;
-        margin: 80px 10px 10px 80px;
-        padding: 0px;
-        background-repeat: no-repeat;
-        border-radius: 20px;
-        background: transparent url(https://images.unsplash.com/photo-1553481187-be93c21490a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2FtZXxlbnwwfHwwfHw%3D&w=1000&q=80);
-    } 
-    .cabecalho ul {
-        height: 100px;
-        width: 100%;
-        background-color: black;
-        opacity: 0.6;
-        display: flex;
-        padding: 25px 50px;
-        border-radius: 50px;
-        flex-direction: row;
-        align-items: baseline;
-    }
-    .cabecalho a, label {
-        display: inline;
-        text-decoration: none;
-        color: white;
-        font-weight: 900;
-        /* font-weight: bold; */
-        transition: 0.7s all;
-        width: 69%;
-    }
-    .menu {
-        float: right;
-        margin: 0px -140px 0px -200px;
-    }
-    #corpo-imagem {
-        display: flex;
-        align-items: center;
-        align-content: center;
-        width: 100vw;
-        /* margin: 0 auto; */
-        margin-left: 80px;
-        text-align: center;
-        justify-content: center;
-    }
-    #corpo-time-dois {
-        display: flex;
-        align-items: center;
-        align-content: center;
-        width: 100vw;
-        /* margin: 0 auto; */
-        margin-left: 80px;
-        text-align: center;
-        justify-content: center;
-    }
-    #roda-pe-um {
-        align-items: center;
-        align-content: center;
-        width: 100%;
-        /* display: flex; */
-        text-align: center;
-        /* margin: 0 auto; */
-        flex-wrap: nowrap;
-        margin: 15px 0px 15px 0px;
-    }
-    #centrodois {
-        color: white;
-        font-family: arial;
-        width: 50%;
-        font-size: 25px;
-        display: flex;
-        align-items: left;
-        vertical-align: baseline;
-        align-content: center;
-        flex-direction: column;
-        margin: 10px 99px 10px 10px;
-    }
-    #paragrafo-um {
-        color: rgb(165, 164, 164);
-        font-family: arial;
-        width: 250px;
-    }
-    #paragrafo-dois {
-        color: rgb(165, 164, 164);
-        font-family: arial;
-        width: 250px;
-    }
-    #paragrafo-tres {
-        color: rgb(165, 164, 164);
-        font-family: arial;
-        width: 250px;
-    }
-    #paragrafo-quatro {
-        color: rgb(165, 164, 164);
-        font-family: arial;
-        width: 250px;
-    }
-    #icone-tres {
-        color: greenyellow;
-        width: 400px;
-        font-size: 30px;
-        margin: 10px 10px 0px 0px;
-    }
-    #icone-quatro {
-        color: orange;
-        width: 400px;
-        font-size: 30px;
-        margin: 10px 10px 0px 0px;
-    }
-    #caixaum {
-        align-content: flex-start;
-        display: inline-block;
-        width: 55%;
-        margin: 0px 61px;
-        text-align: left;
-    }
-    #portfolio-um {
-        color: red;
-        font-family: arial;
-        letter-spacing: 3px;
-        margin: 25px 10px 5px 10px;
-    }
-    #logoum {
-        margin: 20px;
-        width: 25%;
-        padding: 0;
-        background-repeat: no-repeat;
-        filter: grayscale(1);
-    }
-    #patrocinio {
-    color: white;
-    font-family: arial;
-    margin: 30px 10px 0px 130px;
-}
-    #imagens-portfolio {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: inherit;
-        align-content: center;
-        justify-content: center;
-        text-align: left;
-        width: 320px;
-    }
-    #roda-pe-font-doisdois {
-        color: white;
-        font-family: arial;
-        width: 700px;
-        font-size: 50px;
-        display: inline-block;
-        margin: 25px 10px 20px 0px;
-    }
-    #corpo3 {
-        align-items: center;
-        align-content: center;
-        width: 122%;
-        margin: 0 auto;
-        height: 290px;
-        justify-content: center;
-    }
-    #cabeca-dois {
-        color: white;
-        font-family: arial;
-        width: 355px;
-        font-size: 50px;
-        display: inline-block;
-        margin: 25px 0px 20px 0px;
-    }
-    #casa h4 {
-        font-family: 'Helvetica Neue',;
-        color: gray;
-        margin: 10px -40px 0px 0px;
-        height: 20px;
-    }
+@media (max-width: 950px) {
+
 }
 
 @media (max-width: 700px) {
@@ -1627,6 +1456,13 @@ body {
         justify-content: center;
         margin: 10px 10px 10px 10px;
     }
+    #corpo3 {
+    align-items: center;
+    align-content: center;
+    width: 91%;
+    margin: 0 auto;
+    justify-content: center;
+}
     #logos {
         display: flex;
         align-items: center;
@@ -1643,11 +1479,18 @@ body {
         margin: 10px 10px 10px 10px;
     }
     #roda-pe-font-dois {
-    color: red;
-    font-family: arial;
-    letter-spacing: 3px;
-    /* margin-bottom: -20px; */
-    margin: 10px 10px 0px 68px;
+        color: red;
+        font-family: arial;
+        letter-spacing: 3px;
+        /* margin-bottom: -14px; */
+        margin: 20px 45px 10px 45px;
+    }
+    #testimonial {
+        align-content: flex-start;
+        display: inline-block;
+        width: 60%;
+        margin: 0px 65px;
+        text-align: left;
     }
     #roda-pe-font-doisdois {
         color: white;
@@ -1655,7 +1498,7 @@ body {
         width: 100%;
         font-size: 50px;
         display: inline-block;
-        margin: 10px 10px 10px 100px;
+        margin: 25px -16px 20px -49px;
     }
     #roda-pe-geral {
         width: 93%;
@@ -1919,8 +1762,9 @@ body {
         align-content: center;
         justify-content: center;
         display: flex;
-        margin: 0 18px;
+        /* margin: 0 18px; */
         flex-direction: column;
+        flex-wrap: wrap;
     }
     #localizacao-contato {
         width: 350px;
